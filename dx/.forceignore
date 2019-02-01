@@ -6,3 +6,10 @@ package.xml
 **.profile*
 
 **/Security.settings*
+
+# ignore flexipages as we only want the components
+**/*.flexipage*
+*.flexipage*
+**/*.object*
+*.object*
+

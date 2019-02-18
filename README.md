@@ -50,9 +50,9 @@ This works very similar to an App Exchange install.
 
 Please login to an available sandbox and click the link below.
 
-[https://test.salesforce.com/packaging/installPackage.apexp?p0=04t6A000003OjvoQAC](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t6A000003OjvoQAC)
+[https://test.salesforce.com/packaging/installPackage.apexp?p0=04t6A000003Ok8pQAC](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t6A000003Ok8pQAC)
 
-(or simply navigate to `https://YOUR_SALESFORCE_INSTANCE/packaging/installPackage.apexp?p0=04t6A000003OjvoQAC` <br />
+(or simply navigate to `https://YOUR_SALESFORCE_INSTANCE/packaging/installPackage.apexp?p0=04t6A000003Ok8pQAC` <br />
 if you are already logged in)
 
 ![Install for Admins](docs/images/installPackage.png)

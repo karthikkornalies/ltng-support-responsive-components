@@ -2,8 +2,18 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
   <types>
     <name>AuraDefinitionBundle</name>
-    <members>ltng_ResponsivePlaceholder</members>
+    <members>ltng_PlaceholderHeader</members>
+    <members>ltng_PlaceholderImage</members>
+    <members>ltng_PlaceholderTextbox</members>
     <members>ltng_ResponsiveTable</members>
+  </types>
+  <types>
+    <name>ApexClass</name>
+    <members>ltng_PlaceholderCtrl</members>
+  </types>
+  <types>
+    <name>StaticResource</name>
+    <members>ltng_ExamplePlaceholderImage</members>
   </types>
   <version>44.0</version>
 </Package>

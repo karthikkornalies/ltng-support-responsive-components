@@ -1,4 +1,4 @@
-<design:component label="Responsive Placeholder">
+<design:component label="Placeholder Textbox">
     <design:attribute name="placeholderText" label="Text" description="Inner text of placeholder" />
     <design:attribute name="placeholderDescription" label="Description" description="TextArea Description of the placeholder" />
     <design:attribute name="theme" label="Theme" description="SLDS Theme"

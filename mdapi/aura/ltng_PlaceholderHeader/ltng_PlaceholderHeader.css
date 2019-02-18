@@ -1,0 +1,9 @@
+.THIS .slds-page-header__name-title {
+    /**
+    .THIS gets converted to the name of this component
+    and is applied to the base element of the component.
+    So .THIS .slds-page-header__name-title
+    translates to the element with the css class of slds-page-header__name-title
+    somewhere within this component (and its children), but no where else.
+    **/
+}

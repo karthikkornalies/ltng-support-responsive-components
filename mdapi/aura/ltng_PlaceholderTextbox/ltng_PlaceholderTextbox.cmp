@@ -1,7 +1,7 @@
 <!--
 /**
  * Responsive placeholder container that displays as a rounded box.
- * @component ltng_ResponsivePlaceholder
+ * @component eg_ResponsivePlaceholder
  **/
 -->
 <aura:component

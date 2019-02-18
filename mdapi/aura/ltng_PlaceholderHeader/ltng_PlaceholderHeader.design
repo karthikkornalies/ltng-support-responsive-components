@@ -1,0 +1,8 @@
+<design:component label='Placeholder Header'>
+    <design:attribute name='iconName' label='Icon Name' description='Name of icon from https://www.lightningdesignsystem.com/icons' default='partners' />
+    <design:attribute name='iconType' label='Icon Type' description='' default='standard'
+        datasource="action,custom,doctype,standard,utility"
+    />
+    <design:attribute name='mainTitle' label='Main Title' description='Main title of the header' default='Header' />
+    <design:attribute name='subTitle' label='Sub Title' description='Sub Title of the header' default='Sub-Header' />
+</design:component>

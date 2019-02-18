@@ -1,0 +1,50 @@
+<!--
+/**
+* Very simple header to separate out sections of a page.
+* <p>Based on the Lightning Design System - Page Header:
+*     <a href='https://www.lightningdesignsystem.com/components/page-headers/'>
+*         https://www.lightningdesignsystem.com/components/page-headers/
+*     </a></p>
+* @component: eg_ResponsivePageHeader
+**/
+-->
+<aura:component
+implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction"
+    access="global"
+>
+    <!-- attributes -->
+    <aura:attribute name="iconName" type="String" default="partners" access="global" />
+    <aura:attribute name="iconType" type="String" default="standard" access="global" />
+    <aura:attribute name="mainTitle" type="String" default="Title" access="global" />
+    <aura:attribute name="subTitle" type="String" default="Sub-Title" access="global" />
+    <!-- private attributes -->
+    <!-- handlers -->
+    <aura:handler name="init" value="{!this}" action="{!c.init}" />
+    <!-- events -->
+    <!-- elements -->
+    <div class="slds-page-header">
+        <div class="slds-page-header__row">
+            <div class="slds-page-header__col-title">
+                <div class="slds-media">
+                    <div class="slds-media__figure">
+                        <span class="slds-icon_container slds-icon-standard-opportunity" title="opportunity">
+                            <lightning:icon iconName="{!v.iconType + ':' + v.iconName}" alternativeText="{!v.iconName}" />
+                        </span>
+                    </div>
+                    <div class="slds-media__body">
+                        <div class="slds-page-header__name">
+                            <div class="slds-page-header__name-title">
+                                <h1>
+                                    <span class="slds-page-header__title slds-truncate" title="{!v.mainTitle}">{!v.mainTitle}</span>
+                                </h1>
+                            </div>
+                        </div>
+                        <aura:if isTrue="{!not(empty(v.subTitle))}">
+                        <p class="slds-page-header__name-meta">{!v.subTitle}</p>
+                        </aura:if>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</aura:component>

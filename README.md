@@ -6,18 +6,27 @@ Please see the [Installation](#install) section below for more on how to install
 
 ---
 
-Overview
-
----
-
 NOTE: This project is for demonstration purposes.
 For more information, please see the [Licensing](#licensing) section below
 
-# Demo
+# Create Mock-Ups on a Call
 
-Provides a responsive placeholder and table components.
+Using the set of responsive components, simply drag and drop the components onto an App Builder Page to make Mock-ups on the call.
 
-Great for discussing how to build responsive designs in Lightning Experience.
+![App Builder Screenshot](docs/images/AppBuilderExample.png)
+
+And then publish to make clickable walkthroughs and get your ideas across.
+
+# Demonstrate Responsive Design
+
+Show how Responsive Design works with an interactive demo in the App Builder - App Pages. <br />
+(Note that Lightning Home Pages and Record Pages are coming soon for mobile)
+
+![Example Screnshot on Desktop](docs/images/PlaceholderExampleDesktop.png)
+
+Use different layotus and preview layout consequences from Desktop to Tablet to Mobile, so its clear how the experience will behave.
+
+![Example Screenshot on Mobile](docs/images/PlaceholderExamplePhone.jpg)
 
 For more information, please see the [ltng-support-responsive demo](https://github.com/SalesforceCloudServices/ltng-support-responsive)
 
@@ -31,6 +40,8 @@ For more information, please see the [Licensing](#licensing) section below
 Add the components to your Lightning App Builder Pages.
 
 Configure to include the title, description or size desired.
+
+![App Builder Screenshot](docs/images/AppBuilderExample.png)
 
 ---
 
@@ -50,9 +61,9 @@ This works very similar to an App Exchange install.
 
 Please login to an available sandbox and click the link below.
 
-[https://test.salesforce.com/packaging/installPackage.apexp?p0=04t6A000003Ok8pQAC](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t6A000003Ok8pQAC)
+[https://test.salesforce.com/packaging/installPackage.apexp?p0=04t6A000003OkD2QAK](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t6A000003OkD2QAK)
 
-(or simply navigate to `https://YOUR_SALESFORCE_INSTANCE/packaging/installPackage.apexp?p0=04t6A000003Ok8pQAC` <br />
+(or simply navigate to `https://YOUR_SALESFORCE_INSTANCE/packaging/installPackage.apexp?p0=04t6A000003OkD2QAK` <br />
 if you are already logged in)
 
 ![Install for Admins](docs/images/installPackage.png)

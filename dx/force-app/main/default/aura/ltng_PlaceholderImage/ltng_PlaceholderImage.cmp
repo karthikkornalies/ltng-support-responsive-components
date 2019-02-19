@@ -10,11 +10,21 @@
     access="global"
 >
     <!-- attributes -->
-    <aura:attribute name="resourceName" type="String" />
-    <aura:attribute name="targetAddress" type="String" />
-    <aura:attribute name="description" type="String" />
-    <aura:attribute name="width" type="String" default="100%" />
-    <aura:attribute name="height" type="String" default="auto" />
+    <aura:attribute name="resourceName" type="String"
+    	description="The API name of the resource to show"
+    />
+    <aura:attribute name="targetAddress" type="String"
+    	description="The address to go when clicking the button"
+    />
+    <aura:attribute name="description" type="String"
+    	description="The screen reader tooltip for the image"
+    />
+    <aura:attribute name="width" type="String" default="100%"
+    	description="The CSS width of the image"
+    />
+    <aura:attribute name="height" type="String" default="auto"
+    	description="The CSS height of the image"
+    />
     <!-- private attributes -->
         <!-- not used currently as /resource/ + resourceName
             will continue to work for foreseeable future.
